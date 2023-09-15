@@ -1,0 +1,190 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+header{
+  width: 100%;
+  background-color: var(--rosa);
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  
+
+}
+
+ .container {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  height: 60%;
+  width: 90%; 
+  margin: auto;
+  padding: 10px;
+  
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo span {
+    color: var(--marrom1);
+    font-size: 1.8em;
+    margin-left: 8px;
+    transition: 0.5s;
+    font-family:  'Dancing Script', cursive;
+    transition: all 250ms linear 0s;
+}
+
+.logo span:hover{
+    font-size: 2em;
+    color: var(--azul);
+}
+
+header img {
+    width: 32px;
+    margin-right: 0;
+    padding: 15px 0;;
+}
+.nav {
+  display: flex;
+  
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  list-style: none;
+  margin-left: 10px;
+  color: white;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif ;
+  font-size: 1.2rem;
+  transition: all 250ms linear 0s;
+}
+
+.nav-list li a:hover {
+  font-size: 1.4rem;
+  color: var(--azul);
+ 
+}
+.nav-list li a{
+  position: relative;
+  animation-name: menu;
+  animation-duration: 1s;
+  transition: 100ms;
+}
+
+
+
+@keyframes menu {
+  0%   { left:0px; top: -100px;}
+  100% { left: 0px; top:0px;}
+  
+}
+
+
+
+@media (max-width: 600px){
+ 
+   .menu-section nav{
+    display: none;
+  }
+
+  
+  .menu-toggle{
+    cursor: pointer;
+  }
+
+  .menu-toggle div{
+    background:#ffffff;
+    width: 32px;
+    height: 2px;
+    margin: 8px;
+    transition-duration: 0.3s;
+  }
+
+  /*Fullscreen*/
+  .menu-section.on {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--rosa);
+    z-index: 10; /*camada acima, evitar o scrool dos itens a baixo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on nav{
+    display: block;
+  }
+
+  
+  .menu-section.on .menu-toggle{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  
+  .menu-section.on .menu-toggle .one{
+    transform: rotate(45deg) translate(7px, 7px);
+    background-color: #fff;
+  }
+
+  .menu-section.on .menu-toggle .two{
+   opacity: 0;
+
+  }
+
+  .menu-section.on .menu-toggle .three{
+    transform: rotate(-45deg) translate(8px, -9px);
+    background-color: #fff;
+  }
+
+  .menu-section.on nav ul{
+    text-align: center;
+    display: block;
+  }
+
+  .menu-section.on nav ul a{ 
+   transition-duration:  0.5s;
+   font-size: 2.0rem;
+    display: block;
+    color: #fff;
+    padding: 1.8rem;
+  }
+  
+header nav ul li a .FiLogOut{
+width: 40px;
+}
+  .menu-section.on nav ul .hide{ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 0rem;
+     font-size: 1.6rem;
+   }
+
+}
+
+@media (max-width: 320px){
+  #form h3{
+    font-size: 2rem;
+  }
+
+}
+
+

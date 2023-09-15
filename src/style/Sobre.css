@@ -1,0 +1,58 @@
+.sobre{
+    
+    background: var(--rosa);
+    color: white;
+    display: grid;
+    grid-row: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    padding: 60px ;
+}
+
+.sobre-title{
+    font-family:  'Dancing Script', cursive;
+    font-size: 2.25em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.bolo{
+    
+    width: 400px;
+    height: 400px;
+    border-radius: 15%;
+  
+   
+    
+}
+
+.sobre-content{
+    font-size: 1.25em
+    ;
+    line-height: 1.80;
+}
+
+
+@media (max-width: 1000px 
+){
+    
+    .sobre{
+        display: block;
+        
+    }
+
+    
+    .sobre-image{
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+    
+}
+
+
+
+
+
