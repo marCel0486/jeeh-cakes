@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/Home.css'
 import Sobre from './Sobre'
+import Produto from './Produto'
 const Home = () => {
   return (
     <>
@@ -17,6 +18,10 @@ const Home = () => {
       
     </div>
     <Sobre/>
+
+    <Produto/>
+
+    
     </>
   )
 }

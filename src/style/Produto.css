@@ -1,0 +1,43 @@
+.cardapio{
+    background: var(--rosa2);
+    color: white;
+}
+
+.container-produto {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+
+.card-produto{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    max-width: 300px;
+}
+
+@media(max-width: 700px){
+    .container-produto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.bolo-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6em;
+
+}
+
+.span-produto{
+    font-weight: bold;
+    margin-top: 5px;
+
+
+}
+
+.produto-image img{
+    border-radius: 5%;
+}
