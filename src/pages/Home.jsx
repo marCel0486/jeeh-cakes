@@ -2,6 +2,7 @@ import React from 'react'
 import '../style/Home.css'
 import Sobre from './Sobre'
 import Produto from './Produto'
+import Contato from './Contato'
 const Home = () => {
   return (
     <>
@@ -20,6 +21,8 @@ const Home = () => {
     <Sobre/>
 
     <Produto/>
+
+    <Contato/>
 
     
     </>

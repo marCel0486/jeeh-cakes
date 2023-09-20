@@ -1,0 +1,41 @@
+.contato{
+    background-color: var(--rosa);
+    color: white;
+
+}
+
+.contato-title{
+    text-align: center;
+    color: white;
+    padding: 15px;
+   font-family: 'Dancing Script', cursive;
+    font-size: 3em;text-align: center;
+    
+}
+
+.container-contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.container-contato a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.4s;
+    font-size: 1.1em;
+}
+
+.container-contato a:hover {
+    color: var(--azul);
+    font-size: 1.2em;
+
+}
+
+.container-contato img {
+    width: 32px;
+}

@@ -39,7 +39,7 @@ const [classOn, setClassOn] = useState(false);
                 <a href="#cardapio">CARDÁPIO</a>
               </li>
               <li>
-                <a href="/">CONTATO</a>  
+                <a href="#contato">CONTATO</a>  
               </li>
               
             </ul>

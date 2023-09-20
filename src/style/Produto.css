@@ -3,11 +3,21 @@
     color: white;
 }
 
+
+.Produto-title{
+text-align: center;
+    color: white;
+    padding: 15px;
+   font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
 .container-produto {
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap: 20px;
+    margin-top: 25px;
 }
 
 .card-produto{
@@ -34,8 +44,12 @@
 .span-produto{
     font-weight: bold;
     margin-top: 5px;
+    font-size: 1.1em;
 
+}
 
+.span-produto sup {
+    font-size: 1.1em;
 }
 
 .produto-image img{
