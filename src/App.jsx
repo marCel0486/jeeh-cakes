@@ -6,9 +6,18 @@ import Header from './components/Header'
 
 import './style/Global.css'
 
+import { Helmet } from 'react-helmet'
+
+import favicon from '/img/cupcake16.png'
+
 
 function App() {
   return(
+    <>
+    <Helmet>
+      <title> Jeeh,s</title>
+      <link rel='icon' type='image/ico' href='/img/favicon.ico' />
+    </Helmet>
     <BrowserRouter>
 <Header/>
  <Routes>
@@ -16,6 +25,7 @@ function App() {
  </Routes>
  <Footer/>
  </BrowserRouter>
+ </>
   )
  
 }

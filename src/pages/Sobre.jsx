@@ -4,7 +4,7 @@ import '../style/Sobre.css'
 
 const Sobre = () => {
   return (
-    <section className='sobre' id='sobre' >
+    <section className='sobre animeleft' id='sobre' >
         
         <div>
         <h2 className='sobre-title'>

@@ -1,0 +1,88 @@
+{
+    "bolos": [
+      {
+        "id": 1,
+        "sabor": "abacaxi",
+        "preco": 42,
+        "imagem": "img/bolo5.png"
+      },
+      {
+        "id": 2,
+        "sabor": "limão",
+        "preco": 42,
+        "imagem": "img/bolo5.png"
+      },
+      {
+        "id": 3,
+        "sabor": "brigadeiro",
+        "preco": 46,
+        "imagem": "img/bolo4.png"
+      },
+      {
+        "id": 4,
+        "sabor": "prestigio",
+        "preco": 46,
+        "imagem": "img/bolo5.png"
+      },
+      {
+        "id": 5,
+        "sabor": "maracujá",
+        "preco": 46,
+        "imagem": "img/bolo5.png"
+      },
+      {
+        "id": 6,
+        "sabor": "creme com morangos",
+        "preco": 50,
+        "imagem": "img/bolo1.png"
+      },
+      {
+        "id": 7,
+        "sabor": "ninho",
+        "preco": 50,
+        "imagem": "img/bolo4.png"
+      },
+      {
+        "id": 8,
+        "sabor": "floresta negra",
+        "preco": 50,
+        "imagem": "img/bolo3.png"
+      },
+      {
+        "id": 9,
+        "sabor": "floresta branca",
+        "preco": 55,
+        "imagem": "img/bolo2.png"
+      },
+      {
+        "id": 10,
+        "sabor": "ninho trufado",
+        "preco": 55,
+        "imagem": "img/bolo1.png"
+      },
+      {
+        "id": 11,
+        "sabor": "doce de leite c/ nozes",
+        "preco": 60,
+        "imagem": "img/bolo4.png"
+      },
+      {
+        "id": 12,
+        "sabor": "doce de leite c/ ameixa",
+        "preco": 60,
+        "imagem": "img/bolo3.png"
+      },
+      {
+        "id": 13,
+        "sabor": "trufado com morangos",
+        "preco": 60,
+        "imagem": "img/bolo2.png"
+      },
+      {
+        "id": 14,
+        "sabor": "sonho de valsa",
+        "preco": 60,
+        "imagem": "img/bolo1.png"
+      }
+    ]
+  }

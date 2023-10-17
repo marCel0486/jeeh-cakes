@@ -32,7 +32,7 @@ a,ul,li{
 
 /*animação scroll */
 
-[data-anime] {
+/*[data-anime] {
     opacity: 0;
     transition: .2s;
 }
@@ -49,3 +49,22 @@ a,ul,li{
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+.animeleft{
+    transform: translateX(-20px);
+    opacity: 0;
+    animation: animeleft .3s forwards;
+  }
+  
+  @keyframes animeleft {
+    to{
+      transform: initial;
+      opacity: initial;
+    }
+    
+  }

@@ -6,7 +6,7 @@ import what from '/img/what.svg'
 
 const Contato = () => {
   return (
-    <section className='contato' id='contato'>
+    <section className='contato animeleft' id='contato'>
       <h2 className='contato-title'>Contato</h2>
       <div className='container-contato'>
         
@@ -15,11 +15,11 @@ const Contato = () => {
 
         </Link>
 
-        <Link to='
-https://contate.me/docurinhasdajeh' target='_blank'>
+        <a href='
+https://web.whatsapp.com/send?phone=15997466647' target='_blank'>
   <img src={what} alt="" />
         (15)997466647
-        </Link>
+        </a>
         
 
       </div>
