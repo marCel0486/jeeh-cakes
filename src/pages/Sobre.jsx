@@ -10,8 +10,8 @@ const Sobre = () => {
         <h2 className='sobre-title'>
         Sobre Nós</h2>
         <p className='sobre-content'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi labore perferendis tempore accusamus esse voluptates sed tempora nemo ipsa porro inventore distinctio sint at cupiditate, aperiam ea ad optio.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, totam quasi nobis tenetur ab minima, itaque mollitia labore distinctio dolores odit unde consectetur consequuntur! Suscipit reprehenderit eaque enim exercitationem corporis.
+        
+Bem-vindo a um paraíso de confeitaria onde os sonhos se tornam realidade e a doçura é celebrada em cada fatia! Nossa loja de bolos é um refúgio para os apreciadores de sabores extraordinários, onde a arte da confeitaria se encontra com a paixão por criar bolos que são verdadeiras obras-primas comestíveis. Aqui, cada bolo é uma história contada em camadas de sabor, decorado com maestria e amor. Seja você um amante de bolos clássicos, cupcakes criativos, ou tortas irresistíveis, nossa loja tem algo especial para todos os paladares. Entre e mergulhe em um mundo de doçura onde a alegria é fatiada e servida com um toque de magia. Estamos ansiosos para tornar seus momentos especiais ainda mais doces e memoráveis.
      
      
         
