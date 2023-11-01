@@ -3,21 +3,21 @@
       {
         "id": 1,
         "sabor": "abacaxi",
-        "preco": 42,
-        "imagem": "img/bolo5.png"
+        "preco": 46,
+        "imagem": "img/abacaxi.png"
       },
 
       {
         "id": 2,
         "sabor": "limão",
-        "preco": 42,
-        "imagem": "img/bolo5.png"
+        "preco": 46,
+        "imagem": "img/Limao.jpg"
       },
       {
         "id": 3,
         "sabor": "brigadeiro",
         "preco": 46,
-        "imagem": "img/bolo4.png"
+        "imagem": "img/bolo3.png"
       },
       {
         "id": 4,
@@ -29,25 +29,25 @@
         "id": 5,
         "sabor": "maracujá",
         "preco": 46,
-        "imagem": "img/bolo5.png"
+        "imagem": "img/maracujá.jpg"
       },
       {
         "id": 6,
         "sabor": "creme com morangos",
         "preco": 50,
-        "imagem": "img/bolo1.png"
+        "imagem": "img/Mninho.jpg"
       },
       {
         "id": 7,
         "sabor": "ninho",
         "preco": 50,
-        "imagem": "img/bolo4.png"
+        "imagem": "img/bolo1.png"
       },
       {
         "id": 8,
         "sabor": "floresta negra",
         "preco": 50,
-        "imagem": "img/bolo3.png"
+        "imagem": "img/florestaN.jpg"
       },
       {
         "id": 9,
@@ -59,31 +59,31 @@
         "id": 10,
         "sabor": "ninho trufado",
         "preco": 55,
-        "imagem": "img/bolo1.png"
+        "imagem": "img/ninhoT.jpg"
       },
       {
         "id": 11,
         "sabor": "doce de leite c/ nozes",
         "preco": 60,
-        "imagem": "img/bolo4.png"
+        "imagem": "img/DoceLeiteN.jpg"
       },
       {
         "id": 12,
         "sabor": "doce de leite c/ ameixa",
         "preco": 60,
-        "imagem": "img/bolo3.png"
+        "imagem": "img/ameixa.png"
       },
       {
         "id": 13,
         "sabor": "trufado com morangos",
         "preco": 60,
-        "imagem": "img/bolo2.png"
+        "imagem": "img/TrufadoM.jpg"
       },
       {
         "id": 14,
         "sabor": "sonho de valsa",
         "preco": 60,
-        "imagem": "img/bolo1.png"
+        "imagem": "img/Svalsa.png"
       }
     
     ]
