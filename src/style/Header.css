@@ -187,4 +187,23 @@ width: 40px;
 
 }
 
+/* svg */
 
+.svg-icon{
+  fill: white;
+  width: 25px;
+  
+}
+
+.svg-icon:hover{
+  width: 35px;
+  fill: #6bd9e7;
+}
+
+
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
