@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../style/Loja.css'
+import 'animate.css';
+
 
 const Loja = () => {
   const [bolos, setbolos] = useState([])
@@ -31,6 +33,8 @@ const Loja = () => {
         console.error(`Bolo com ID ${id} não encontrado.`);
         return prevbolos;
       }
+      
+      
     });
   };;
 
@@ -48,11 +52,11 @@ const Loja = () => {
   return (
     <div className='cardapio'>
       
-      <div id="carrinho">
+      <div id="carrinho"  >
         {bolos
           .filter((bolo) => bolo.quantidade > 0)
           .map((bolo) => (
-            <div key={bolo.id} className='carrinho'>
+            <div key={bolo.id} className='carrinho animate__animated animate__backInRight'>
               <div className='carrinho-info'>
                 
               <p>Sabor: {bolo.sabor} | quantidade: {bolo.quantidade} </p>
@@ -68,9 +72,9 @@ const Loja = () => {
       </div>
       
 
-      <div className='container-produto'>
+      <div className='container-produto '>
         {bolos.map((bolo) => (
-          <div className='card-produto animeleft' key={bolo.id}>
+          <div className='card-produto animate__animated animate__zoomIn' key={bolo.id}>
             <div className='card-image'>
               <img className='bolo-img' src={bolo.imagem} alt='' />
             </div>

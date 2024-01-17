@@ -13,7 +13,7 @@ const [classOn, setClassOn] = useState(false);
     <header>
     <div className="container">
 
-      <div className='logo'>
+      <div className='logo '>
       <img className="logo-image" src={cupcake} alt="logo cupcake"/>
 
       <Link to='/'><span>Jeeh,s</span></Link>

@@ -4,7 +4,7 @@ import '../style/Sobre.css'
 
 const Sobre = () => {
   return (
-    <section className='sobre animeleft' id='sobre' >
+    <section className='sobre animate__animated animate__backInRight' id='sobre' >
         
         <div>
         <h2 className='sobre-title'>

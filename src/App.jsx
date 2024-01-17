@@ -11,6 +11,8 @@ import { Helmet } from 'react-helmet'
 import favicon from '/img/cupcake16.png'
 import Loja from './pages/Loja'
 
+import 'animate.css';
+
 
 function App() {
   return(

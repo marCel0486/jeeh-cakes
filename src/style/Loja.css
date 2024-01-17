@@ -1,4 +1,8 @@
 /* produtos */
+
+*{
+    overflow-x: hidden;
+}
 .cardapio{
     background: var(--rosa2);
     color: white;
@@ -100,12 +104,29 @@ text-align: center;
 /* carrinho */
 
 #carrinho{
-    margin-left: 60%;
+    margin-left: 70%;
     position: absolute;
     z-index: 1;
     opacity: 0.9;
     pointer-events: none;
+    
+    
 
+}
+
+ 
+
+@media (max-width:600px){
+    #carrinho{
+        margin-left: 30%;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+        flex-direction: column;
+        width: 70%;
+        
+    
+    }
 }
 
 .carrinho {
@@ -115,16 +136,16 @@ text-align: center;
     flex-wrap: wrap;
     background: var(--rosa);
     padding: 25px;
-    width: 500px;
     border-bottom: 1px solid;
     border-left: 1px solid;
+    
 
     
 }
 
-@media(max-width:600px){
+@media(max-width:1000px){
     .carrinho{
-        width: 75%;
+        width: 85%;
     }
 }
 
